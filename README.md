@@ -40,12 +40,9 @@ The config file mentioned above should have the following format.
   "local_repo_path" : {
     "/Users/piccachiou/dev/repos/mynewapp"
   },
-  "resources" : {
-    "s3", "mongo","redis"
-  },
-  "service_type" : {
-    "lambda", "docker" 
-  }
+  "resources" : ["s3", "mongo","redis"]
+  ,
+  "service_type" : ["lambda", "docker"]
 }
 ```
 
