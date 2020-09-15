@@ -8,7 +8,7 @@ The idea is really to allow an engineer to focus on the project at hand while le
 
 ## Hashiqube
 
-The majority of PowerBank has been forked from the [Hashiqube repository] (https://github.com/servian/hashiqube) and will tromendously aid in getting us there faster than it would have been without.
+The majority of PowerBank has been forked from the [Hashiqube repository](https://github.com/servian/hashiqube) and will tromendously aid in getting us there faster than it would have been without.
 
 # Prerequisites
 
@@ -17,7 +17,7 @@ The following have to be installed on your machine:
 ### [Vagrant] (https://www.vagrantup.com/downloads.html)
 ### Git
 
-You will also need access to an [AWS Account] (https://aws.amazon.com/console/). It is important for you to create a user with cli access to your account and rights to spin up the resources you forsee you might make use of. Please see [this tutorial] (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) for a walkthrough on how to create users with cli access.
+You will also need access to an [AWS Account](https://aws.amazon.com/console/). It is important for you to create a user with cli access to your account and rights to spin up the resources you forsee you might make use of. Please see [this tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) for a walkthrough on how to create users with cli access.
 
 PowerBank requires the following ENVS to be configured:
 ```
@@ -39,10 +39,10 @@ The config file mentioned above should have the following format.
     "/Users/piccachiou/dev/repos/mynewapp"
   },
   "resources" : {
-    "s3" | "mongo" | "redis"
+    "s3", "mongo","redis"
   },
   "service_type" : {
-    "lambda" | "docker"
+    "lambda", "docker" 
   }
 }
 ```
