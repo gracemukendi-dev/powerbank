@@ -19,7 +19,7 @@ The majority of PowerBank has been forked from the [Hashiqube repository](https:
 
 You will also need access to the following accounts:
 - [AWS Account](https://aws.amazon.com/console/): *It is important for you to create a user with cli access to your account and rights to spin up the resources you forsee you might make use of. Please see [this tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) for a walkthrough on how to create users with cli access.*
-- Git Repo: *Unless you decide not to spin up anything remotely,your local development should have its remote counterpart.*
+- Git Repo: *Unless you decide not to spin up anything remotely, your local development should have its remote counterpart.*
 
 PowerBank requires the following ENVS to be configured:
 ```
