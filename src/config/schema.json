@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://gracemukendi.com/powerbank/schema.json",
+    "title": "PowerBank",
+    "description": "A list of configs for local and remote deployment of resources.",
+    "type": "object",
+    "properties": {
+        "resources": {
+          "description": "A list of resources needed to run application.",
+          "type": "array",
+          "items": {
+              "type" : "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+    "required": [ "resources" ]
+  }
