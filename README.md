@@ -1,4 +1,4 @@
-# NOTE: This repo doesn't have any releases just yet. Still under development. 
+# NOTE: Still under development. 
 
 # PowerBank
 
