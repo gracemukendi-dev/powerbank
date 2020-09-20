@@ -20,7 +20,7 @@ provider "aws" {
     firehose       = "http://localhost:4573"
     iam            = "http://localhost:4593"
     redshift       = "http://localhost:4577"
-    s3             = "http://localhost:4572"
+    s3             = "http://localhost:4566"
     secretsmanager = "http://localhost:4584"
     ses            = "http://localhost:4579"
     sns            = "http://localhost:4575"
