@@ -29,7 +29,6 @@ machines = [
     :vbox_config => vbox_config,
     :synced_folders => [
       { :vm_path => '/data', :ext_rel_path => '../../', :vm_owner => 'ubuntu' },
-      { :vm_path => '/var/jenkins_home', :ext_rel_path => './jenkins/jenkins_home', :vm_owner => 'ubuntu' },
     ],
   }
 ]
@@ -131,10 +130,6 @@ Vagrant::configure("2") do |config|
       # install docker
       # vagrant up --provision-with docker to only run this on vagrant up
       config.vm.provision "docker", preserve_order: true, type: "shell", path: "docker/docker.sh"
-
-      # install terraform
-      # vagrant up --provision-with terraform to only run this on vagrant up
-      config.vm.provision "terraform", preserve_order: true, type: "shell", privileged: true, path: "hashicorp/terraform.sh"
 
       # install vault
       # vagrant up --provision-with vault to only run this on vagrant up
