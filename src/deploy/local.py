@@ -21,10 +21,10 @@ class PWB_Local():
     
     def run(self):
         logger.info("+++Installing localstack+++")
-        os.system("/vagrant/src/scripts/localstack.sh")
+        os.system("sudo /vagrant/src/scripts/localstack.sh")
         logger.info("+++Running terraform for local resources+++")
         for resource in self.configuration.resources:
-            os.system(f"/vagrant/src/scripts/terraform.sh {resource}")
+            os.system(f"sudo /vagrant/src/scripts/terraform.sh {resource}")
         
 class Configuration():
     def __init__(self, file_content):
