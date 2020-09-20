@@ -23,7 +23,7 @@ You will also need access to the following accounts:
 
 PowerBank requires the following ENVS to be configured:
 ```
-PB_CONFIG_FILE_LOC #will contain the location of your config file
+PWB_CONFIG_FILE_LOC #will contain the location of your config file
 AWS_PROFILE #for remote deployment of resources
 
 ```
