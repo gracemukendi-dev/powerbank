@@ -34,14 +34,9 @@ The config file mentioned above should have the following format.
 
 ```json
 {
-  "remote_repo_url" : {
-    "git:github.com:piccachiou/mynewapp.git"
-  },
-  "local_repo_path" : {
-    "/Users/piccachiou/dev/repos/mynewapp"
-  },
-  "resources" : ["s3", "mongo", "redis"]
-  ,
+  "remote_repo_url" : "git:github.com:piccachiou/mynewapp.git",
+  "local_repo_path" : "/Users/piccachiou/dev/repos/mynewapp",
+  "resources" : ["s3", "mongo", "redis"],
   "service_type" : ["lambda", "docker"]
 }
 ```
